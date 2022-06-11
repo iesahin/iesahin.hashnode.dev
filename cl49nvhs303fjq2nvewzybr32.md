@@ -1,0 +1,3 @@
+## Software architecture as a tree
+
+In Rust, there are several ways to manage memory. Memory has two regions: one is called stack. Each new scope (between { and }) adds variables to the stack. Variables in the stack are reserved at once when a new scope is introduced and they are freed when the scope ends. This brings speed. Variables in the stack are also reserved contiguously, so they are more compatible to the principle of locality.
