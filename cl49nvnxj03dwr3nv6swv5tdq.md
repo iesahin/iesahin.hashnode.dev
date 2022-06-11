@@ -1,0 +1,3 @@
+## Death of Agile?
+
+I watched a relatively old talk by Allen Holub: The talk is nice. He says the scrum is not agile, and that it provides a very strict set of rules that has nothing to do with it. Although I’m convinced that scrum isn’t agile, I’m not convinced that we don’t need processes or habits. One other talk he has is this: Basically, what agile boils down to self-managing teams composed of self-managing people, working in close collaboration with the customer.
