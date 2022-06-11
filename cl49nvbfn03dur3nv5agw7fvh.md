@@ -1,0 +1,3 @@
+## Unit tests vs Integration Tests in Rust
+
+One thing I’ve noticed after starting to work in Rust is that Test Driven Development became feasible. As an absentminded by default developer, I value tests. However, if the cycle is slow, it becomes highly expensive to test everything. I think this is one reason unit tests are more favored than integration tests. They are more precise and require less time to complete. Round-trip tests are more feasible with unit tests.
