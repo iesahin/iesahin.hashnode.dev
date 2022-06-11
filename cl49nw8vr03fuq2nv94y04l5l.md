@@ -1,0 +1,3 @@
+## Converting MNIST and Fashion-MNIST IDX format to NumPy
+
+MNIST and the newer Fashion-MNIST datasets are the most well-known datasets to test Machine Learning models. Although the original MNIST dataset is solved as an ML problem, it seems it will be with us for a long time. These datasets are presented in a binary format. There are 4 files, 2 for the training set, 2 for the testing set that are in gzipped IDX and IDX3 formats. Although a simple format, it is non standard and requires to write a custom code.
