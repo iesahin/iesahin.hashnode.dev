@@ -1,0 +1,3 @@
+## Premature Caching is the Root of All Evil
+
+I’m writing a Rust command line app in my spare time to learn the language. It involves some file system checks that I use fs::metadata. As everyone knows, accessing the disk is an expensive operation and must be kept at the minimum. I was thinking to use a HashMap::<Path, Metadata> to cache the results for paths. I’ve then met the cached crate. It caches the results of functions for memoization. This is exactly what I need I thought.
