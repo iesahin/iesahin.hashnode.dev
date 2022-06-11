@@ -1,0 +1,3 @@
+## Creating OS-dependent temporary directories in Rust
+
+There are a few crates in Rust for getting system dependent directories, like user’s home or system configuration directory. The one I prefer is directories-next Recently, I needed a standard function to get the temporary directory. I checked the crate documentation but couldn’t find a proper function for this. Then I noticed std::env::temp\_dir() returns a PathBuf that points to the system temporary directory. This is note for myself that we don’t always need extra packages for basic functionality.
