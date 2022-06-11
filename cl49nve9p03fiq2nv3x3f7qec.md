@@ -1,0 +1,3 @@
+## Developing a gitignore crate
+
+I needed a file system ignore library for a utility I write. This is similar to Git’s .gitignore, but the files containing the rules can have different names, and ignore rules may be defined programmatically. I was using burntsushi’s ignore crate, which in turn uses globset by the same author. In a directory hierarchy, I was first collecting all .ignore files, then trying to decide which files are ignored. Rg Gitignore’s from parameter led me to believe this.
