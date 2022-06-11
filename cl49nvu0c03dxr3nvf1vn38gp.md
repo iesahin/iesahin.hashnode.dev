@@ -1,0 +1,3 @@
+## About estimation from the 'Mythical Man-Month'
+
+I’ve read these in Mythical Man-Month. First, our techniques of estimating are poorly developed. More seriously, they reflect an unvoiced assumption which is quite un-true, i.e., that all will go well. Second, our estimating techniques fallaciously confuse effort with progress, hiding the assumption that men and months are interchangeable. Third, because we are uncertain of our estimates, software managers often lack the courteous stubbornness of Antoine’s chef. Fourth, schedule progress is poorly monitored.
